@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ExtentReport]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="referBasics.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="extendtTest(failed)">
+    <classes>
+      <class name="referBasics.ObsquraTestSite">
+        <methods>
+          <include name="LocateParticularFiledCorespond"/>
+          <include name="launchBrowser"/>
+          <include name="tearDown"/>
+          <include name="TablePrintAll"/>
+        </methods>
+      </class> <!-- referBasics.ObsquraTestSite -->
+    </classes>
+  </test> <!-- extendtTest(failed) -->
+</suite> <!-- Failed suite [ExtentReport] -->
